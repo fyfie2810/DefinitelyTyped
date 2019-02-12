@@ -2430,6 +2430,7 @@ export namespace ScreenOrientation {
     const Orientation: Orientations;
 
     function allow(orientation: keyof Orientations): void;
+    function allowAsync(orientation: keyof Orientations): void;
 }
 
 /**
